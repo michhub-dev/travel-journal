@@ -5,7 +5,7 @@ export default function Data(props) {
     return (
         <>
           <section className="main-container">
-            <img src={props.imageUrl} />
+            <img src={props.imageUrl} className="content-img"/>
             <div className="content" >
                 <img src={props.logo} alt="map" />
                 <span className="location">{props.location}</span>

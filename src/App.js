@@ -1,8 +1,9 @@
 import NavBar from "./components/Navbar";
 import React from "react";
 import './index.css';
-import Data from "./components/Data"
-import data from "./data"
+import Data from "./components/Data";
+import data from "./data";
+import Footer from './components/Footer';
 
 export default function App() {
   
@@ -25,6 +26,7 @@ export default function App() {
     <>
       <NavBar />
      {siteData}
+     <Footer />
     </>
   )
 }
