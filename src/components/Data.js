@@ -10,9 +10,10 @@ export default function Data(props) {
                 <img src={props.logo} alt="map" className="map"/>
                 <span className="location">{props.location}</span>
                 <a href={props.googleMapsUrl} className="a">View on Google maps</a>
-                <h2 className="title">{props.title}</h2>
-                <p>{props.startDate}-{props.endDate}</p>
+                <h3 className="title">{props.title}</h3>
+                <p className="bold">{props.startDate}-{props.endDate}</p>
                 <p className="description">{props.description}</p>
+                <hr />
             </div>
           </section>
         </>
