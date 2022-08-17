@@ -17,6 +17,8 @@ nav {
     left: 0px;
     top: 0px;
     border-radius: 0px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+
 
 }
 nav > img {
@@ -31,3 +33,61 @@ nav > img {
     text-align: left;
 
 }
+.main-container{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+
+}
+.content-img{
+    
+width: 125px;
+height: 168px;
+left: 40px;
+top: 100px;
+}
+.content{
+    margin: 20px;
+}
+.map {
+    margin: auto 5px;
+    width: 10px;
+    height: 15px;
+
+}
+.description {
+    width: 326px;
+    height: 45px;
+    line-break: 16px;
+    font-weight: 400px;
+    font-size: 11px;
+    color: #2B283A;
+
+}
+.title{
+    width: 40px;
+    height: 10px;
+    left: 195px;
+    top: 119px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+.a {
+    margin: 5px;
+    width: 106px;
+    height: 13px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+/*
+
+
+
+*/

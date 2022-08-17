@@ -7,12 +7,12 @@ export default function Data(props) {
           <section className="main-container">
             <img src={props.imageUrl} className="content-img"/>
             <div className="content" >
-                <img src={props.logo} alt="map" />
+                <img src={props.logo} alt="map" className="map"/>
                 <span className="location">{props.location}</span>
-                <a href={props.googleMapsUrl} className="a"/>
-                <h2>{props.googleMapsUrl}</h2>
+                <a href={props.googleMapsUrl} className="a">View on Google maps</a>
+                <h2 className="title">{props.title}</h2>
                 <p>{props.startDate}-{props.endDate}</p>
-                <p>{props.description}</p>
+                <p className="description">{props.description}</p>
             </div>
           </section>
         </>
